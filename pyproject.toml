@@ -1,0 +1,22 @@
+[build-system]
+requires = ["numpy", "hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "smem"
+version = "1.0.0"
+authors = [
+    { name = "Hunter Pollock", email = "hunter@hnt8.net" }
+]
+description = "A Python library that is used to handle interprocess communication platform independently in Python."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/hlpdev/SMem"
+Issues = "https://github.com/hlpdev/SMem/issues"
