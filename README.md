@@ -1,6 +1,5 @@
 # SMem
-<img src="https://img.shields.io/github/v/release/hlpdev/SMem" alt=""> <img src="https://img.shields.io/badge/3.6-%2330648e?label=python
-" alt="">
+<img src="https://img.shields.io/github/v/release/hlpdev/SMem" alt=""> <img src="https://img.shields.io/badge/3.6-%2330648e?label=python" alt="">
 
 The SMem library is used to handle **interprocess communication** ***(IPC)*** 
 platform independently in Python.
