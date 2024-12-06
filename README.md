@@ -14,8 +14,6 @@ platform independently in Python.
 > The create flag on the shared memory instance defaults to false, 
 > so make sure you ensure that an instance of the shared memory exists!
 
-<br>
-
 #### Creating a shared memory instance:
 ```python
 from smem.smem import SMem
@@ -24,7 +22,6 @@ from smem.smem import SMem
 # enabled and a specified "size" of 1024
 shared_memory = SMem("my_shared_memory", create=True, size=1024)
 ```
-<br>
 
 #### Attaching to a shared memory instance:
 Useful for reading an existing shared memory instance.
@@ -35,7 +32,6 @@ from smem.smem import SMem
 # (the same as when we created it)
 shared_memory = SMem("my_shared_memory", size=1024)
 ```
-<br>
 
 #### Writing to shared memory
 Writing to shared memory will overwrite the existing value.
@@ -44,7 +40,6 @@ Writing to shared memory will overwrite the existing value.
 data = b"This is my data to write!"
 shared_memory.write(data)
 ```
-<br>
 
 #### Reading shared memory
 ```python
